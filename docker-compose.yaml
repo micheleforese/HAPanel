@@ -20,7 +20,6 @@ services:
       # ./timezone
       - type: bind
         source: /etc/timezone
-        #source: ./timezone
         target: /etc/timezone:ro
       - type: bind
         source: ./openHAB/addons
